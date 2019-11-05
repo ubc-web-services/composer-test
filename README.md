@@ -59,7 +59,7 @@ This assumes you've installed Drupal using the Standard installation profile
 
 ```lando drush en ubc_announcement_views, ubc_homepage_views, ubc_event_views, ubc_landing_page_views, ubc_profile_views, ubc_taxonomy_terms, ubc_user_roles -y```
 
-### POST INSTALL INSTRUCTIONS
+### POST INSTALL
 
 GO to:
 
