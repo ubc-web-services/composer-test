@@ -1,0 +1,19 @@
+name: CI on timer
+
+on:
+  schedule:
+  - cron: '*/45 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo One a 45 minute timer
+    - name: Run a multi-line script
+      run: |
+        echo Do more stuff
+        echo And even more...
